@@ -13,8 +13,8 @@ Este projeto tem como objetivo entender como variaveis de pacientes se relaciona
 **1.** Limpar e tratar os dados. <br>
 **2.** Conhecer as variaveis e suas distribuições.  <br>
 **3.** Entender como e quais variaveis se relacionam com diabetes. <br>
-**5.** Criar um modelo preditivo capaz de classificar se um paciente tem ou não diabetes. <br>
-**6.** Comparar o modelo criado com um "preditor" padrão *(disponibilizado no dataset)*.
+**4.** Criar um modelo preditivo capaz de classificar se um paciente tem ou não diabetes. <br>
+**5.** Comparar o modelo criado com um "preditor" padrão *(disponibilizado no dataset)*.
 
 ## Dados
 Os dados foram coletados por Mohan Krishna Thalla, trata-se de dados sintéticos que respeitam distribuições coletadas por pesquisa médica de pacientes reais. Por se tratar de dados sintéticos, o projeto de como objetivo pessoal apenas tecnico e qualquer inferência de dados ao mundo real seria erronea.
@@ -84,8 +84,8 @@ Sob os coeficientes estatisticamente significantes:
 
 variaveis peculiares: gender_Other_, education_level_Postgraduate_. qual será as variaveis ocultas sobre elas? <br>
 
-**5.** 
+**4.** 
 [Modelo](#modelo)
 
-**6.**
+**5.**
 Modelo de arvore aleatória tem performance superior a risk score, onde arvore aleatória possui ROC-AUC: **0.94** e risk score ROC-AUC: **0.66**.

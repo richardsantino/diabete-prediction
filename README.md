@@ -1,4 +1,4 @@
-## Predição de Diabetes.
+## Diabetes.
 Este projeto tem como objetivo entender como variaveis de pacientes se relacionam com diabetes e criar um modelo preditivo que, baseado em variaveis de entrada, prevê se um paciente tem ou não diabetes.
 
 ## Conteúdo

@@ -58,7 +58,7 @@ Foram testados três modelos diferentes: **Regressão Logistica**, **Arvore de D
 
 ROC-AUC: **1.** (treino), **0.9428** (validação) e **0.9413** (teste).  <br>
 
-O Threshold de **0.25** foi escolhido priorizando o recall (aumentar a probabilidade de acertar que um paciente tem diabetes dado que ele realmente tem diabetes), pois seria extremamente prejudicial para o paciente se ele fosse direcionado para tratamento dado que ele possui diabetes, porem a precisão também é observada pois em contra partida não podemos cometer muitos falsos positivos pois cada tratamento possui um custo operacional. Com isso obtemos os seguintes scores:
+O Threshold de **0.25** foi escolhido priorizando o recall (probabilidade de acertar que um paciente tem diabetes dado que ele realmente tem diabetes), pois seria extremamente prejudicial para o paciente se ele não fosse direcionado para tratamento dado que ele possui diabetes, porem a precisão também é levado em conta pois em contra partida não podemos cometer muitos falsos positivos pois cada tratamento possui um custo operacional. Dito isso obtemos os seguintes scores:
 
 precision: **0.8739** = probabilidade de um paciente estar com diabetes dado que o modelo classificou-o como diabetes. <br>
 recall: **0.9011** = probabilidade do modelo de classificar o paciente como diabetes dado que o paciente tem diabetes. <br>
@@ -75,8 +75,7 @@ A limpeza foi facilitada pela saude que os dados originalmente possui, porem foi
 Distribuições balanceadas no geral. Variaveis categorias e binarias possuem boa frequencia de valores inclusive a variavel target (diagnosed_diabetes), as variaveis numericas seguem uma distribuição normal ou uma similar.
 
 **3.** 
-Beaseam no EDA, mais especificamente na *Analise Bivariada* usando Modelo linear generalizado (GLM) com função sigmoidal para inferir insights sobre os coeficientes (variaveis). <br>
-O GLM obteve um **R²** de 0.4778, logo os coeficientes certamente explicam como as variaveis dos pacientes se relacionam com diabetes.
+Beaseado no EDA, mais especificamente na *Analise Bivariada* usando Modelo linear generalizado (GLM) com função sigmoidal para inferir insights sobre os coeficientes (variaveis). O GLM obteve um **R²** de 0.4778, logo os coeficientes certamente explicam como as variaveis dos pacientes se relacionam com diabetes.
 
 Sob os coeficientes estatisticamente significantes:
 - quanto maior o valor, maior a probabilidade de diabetes: age, family_history_diabetes, bmi, triglycerides, hba1c, gender_Other_.
